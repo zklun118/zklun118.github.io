@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2604811 */
+  src: url('iconfont.woff2?t=1623298868398') format('woff2'),
+       url('iconfont.woff?t=1623298868398') format('woff'),
+       url('iconfont.ttf?t=1623298868398') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 26px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-zhongyingwenyingwen:before {
+  content: "\e6d3";
+}
+

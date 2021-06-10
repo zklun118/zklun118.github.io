@@ -1,0 +1,35 @@
+html {
+	height: 100%;
+
+	/* 滚动条背景 */
+	::-webkit-scrollbar-track-piece {
+		background-color: #fff;
+		-webkit-border-radius: 0;
+	}
+
+	// 滚动条
+	::-webkit-scrollbar {
+		width: 8px;
+		height: 8px;
+	}
+
+	/*垂直滚动条的样式*/
+	::-webkit-scrollbar-thumb:vertical {
+		height: 50px;
+		background-color: rgba(76, 122, 227, .6);
+		// background-image: -webkit-linear-gradient(top, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+		-webkit-border-radius: 4px;
+		outline: 2px solid #fff;
+		outline-offset: -2px;
+		border: 2px solid #fff;
+		border-radius: 10px;
+	}
+
+	/*滚动条的hover样式*/
+	::-webkit-scrollbar-thumb:hover {
+		height: 50px;
+		background-color: rgba(76, 122, 227, 1);
+		opacity: .1;
+		-webkit-border-radius: 4px;
+	}
+}
